@@ -1,0 +1,32 @@
+* {
+  background-color: black;
+}
+
+.title {
+    font-size: 10vw;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-shadow: 1px 1px 10px black;
+    color: red;
+    text-align: center;
+
+}
+
+h2 {
+  font-size: 5vw;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-shadow: 1px 1px 10px black;
+  color: white;
+  text-align: center;
+}
+
+input[type=button] {
+    color: white;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:300%;
+    display: center;
+    cursor:pointer;
+    margin: 0 auto;
+    display: inline-block;
+}

@@ -60,5 +60,8 @@ Where the user is able to insert the numbers
 Image:
 An image that updates if the user enter a wrong letter
 
+Word to be guessed:
+The word that updates when the user guesses the right letter
+
 
 

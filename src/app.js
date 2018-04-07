@@ -3,6 +3,8 @@ import './hangman.css';
 import Words from './words';
 import _ from 'underscore';
 import Letters from './letters'
+import Image from './image'
+
 
 class App extends Component {
  render() {
@@ -10,6 +12,7 @@ class App extends Component {
      <div className="App">
        <h1 className="title">Hangman</h1>
        <h2>Wanna play a game?</h2>
+       <input type="button" onclick="location.href='http://www.hangman.no/';" value="Click me!" />
      </div>
    )
  }
@@ -44,5 +47,7 @@ class App extends Component {
  }
 
 }
+
+
 
 export default App;
