@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux'
-import store from './store'
+import HangmanGame from './game';
+import App from './app';
+
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <App/>,
   document.getElementById('root')
-)
-
-registerServiceWorker();
+);
