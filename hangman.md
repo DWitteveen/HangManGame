@@ -45,10 +45,13 @@ Letterchecker:
 Does the by the user given letter matches a letter(s) in the word to be guessed
 
 
-********** 
+********** Containers ********** 
 
-Words:
+Wordslist:
 in/export a list of words.
+
+Keyboard:
+Create a keyboard using buttons
 
 
 
@@ -62,6 +65,14 @@ An image that updates if the user enter a wrong letter
 
 Word to be guessed:
 The word that updates when the user guesses the right letter
+
+
+
+********** Actions **********
+
+New game:
+Create a button that resets the game
+
 
 
 

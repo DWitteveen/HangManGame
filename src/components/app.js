@@ -19,6 +19,7 @@ const App = () => (
       <input type="text" name="letter" />
       </label>
     </form>
+    <hr />
     <img src={Image} alt="hangman" />
     <h3>  _ _ _ _ _ _  </h3>
     <Keyboard />

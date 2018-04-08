@@ -21,9 +21,9 @@ class WordList extends Component {
 }
   render() {
     return (
-      <ul>
+      <ol>
         {this.createWordList()}
-      </ul>
+      </ol>
     )
   }
 
