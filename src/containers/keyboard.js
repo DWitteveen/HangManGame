@@ -1,18 +1,34 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import _ from 'underscore';
+// import { bindActionCreators } from 'redux';
+import './style.css'
 
-const KEYBOARD = 'abcdefghijklmnopqrstuvwxyz'.split('');
+class Keyboard extends Component {
 
-class LetterClicker extends Component {
+  createKeyboard (){
+    return this.props.alphabet.map((alphabet) => {
+      return (
+        <button>{alphabet}</button>
+      )
+    })
+  }
 
-
+  render () {
+    return (
+      <ul>
+      {this.createKeyboard()}
+      </ul>
+    );
+  }
 }
 
-// function mapStateToProps(state) {
-//   return {
-//     letter: state.letter
-//   };
-// }
-//
-// export default connect(mapStateToProps)(LetterClicker);
+function mapStateToProps(state) {
+  return {
+    alphabet: state.alphabet
+  };
+}
+
+
+
+
+export default connect(mapStateToProps)(Keyboard);

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { enterLetter } from '../actions/index';
+import './style.css'
+
 
 class WordList extends Component {
 
