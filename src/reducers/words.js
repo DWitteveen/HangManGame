@@ -1,4 +1,6 @@
-export default [
+export default function() {
+return [
+
   'codaisseur',
   'amsterdam',
   'programming',
@@ -7,4 +9,5 @@ export default [
   'rubberduck',
   'coffee',
   'crying'
-];
+]
+}
