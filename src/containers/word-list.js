@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { enterLetter } from '../actions/index';
 
-class UserList extends Component {
+class WordList extends Component {
 
 //create a list of words
   createWordList() {
@@ -37,4 +37,4 @@ function matchDispatchToProps(dispatch){
   return bindActionCreators({enterLetter: enterLetter}, dispatch)
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(UserList);
+export default connect(mapStateToProps, matchDispatchToProps)(WordList);
