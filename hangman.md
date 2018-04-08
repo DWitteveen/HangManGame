@@ -44,6 +44,11 @@ example if strikes === 6 , game over
 Letterchecker:
 Does the by the user given letter matches a letter(s) in the word to be guessed
 
+String splitup:
+Split up te sting so it can check if the giving letter matches the letters in the string
+"test" --> "t", "e", "s", "t" .split()
+
+
 
 ********** Containers ********** 
 
