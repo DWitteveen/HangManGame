@@ -8,7 +8,13 @@ const App = () => (
     <h2> HangMan Game</h2>
     <UserList />
     <hr/>
-    <h2> User Input:</h2>
+    <form>
+      <label>
+      Enter letter:
+      <input type="text" name="letter" />
+      </label>
+
+    </form>
   </div>
 );
 

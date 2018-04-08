@@ -12,6 +12,7 @@ class UserList extends Component {
       <li
       key={word}
       onClick={ () => this.props.enterLetter(word)}>
+      {word}
       </li>
     );
   });
