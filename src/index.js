@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import allReducers from './reducers';
 import App from './components/app';
 
-const store = createStore(allReducers);
+const store = createStore(allReducers, window.devToolsExtension ? window.devToolsExtension() : (f) => f);
 
 
 ReactDOM.render(
@@ -14,3 +14,5 @@ ReactDOM.render(
   </Provider>
   ,document.getElementById('root')
 );
+
+export default {}

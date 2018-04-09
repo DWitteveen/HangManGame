@@ -8,6 +8,7 @@ import './style.css'
 class WordList extends Component {
 
 //create a list of words
+//adding useless clickfunction
   createWordList() {
     return this.props.words.map((word) => {
     return (
@@ -21,9 +22,9 @@ class WordList extends Component {
 }
   render() {
     return (
-      <ol>
+      <ul>
         {this.createWordList()}
-      </ol>
+      </ul>
     )
   }
 

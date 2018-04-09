@@ -1,3 +1,6 @@
+//used for the button keyboard
+
+
 export default function() {
 return [
   'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
